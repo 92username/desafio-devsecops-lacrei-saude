@@ -56,6 +56,7 @@ The api will be available at http://localhost:3000
 - Response: '{"status": "ok"}'
 
 ### Testing the API
+![status_ok](assets/status_ok_screenshot.png)
 
 Using curl:
 ```bash
