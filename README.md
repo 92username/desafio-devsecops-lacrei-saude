@@ -12,20 +12,3 @@ A Lacrei Saúde utiliza uma abordagem de DevSecOps para garantir que nossas entr
 
 ### Estrutura do Projeto
 
-#### Setup Inicial
-
-- Criar um repositório GitHub e uma API básica em Node.js.
-- Containerizar a aplicação usando Docker.
-
-#### Pipeline Automatizado
-
-- Configurar workflows no GitHub Actions para as etapas de build, segurança e deploy simulado.
-
-#### Ferramentas de Segurança
-
-- Integrar OWASP ZAP para análise de vulnerabilidades.
-
-#### Documentação
-
-- Elaborar um README detalhado explicando as decisões técnicas e instruções de uso.
-
