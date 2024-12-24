@@ -45,7 +45,7 @@ docker build -t health-api
 ```bash
 docker run -p 3000:3000 health-api
 ```
-The api will be available at 'http://localhost:3000'
+The api will be available at http://localhost:3000
 
 ## API Endpoints
 
