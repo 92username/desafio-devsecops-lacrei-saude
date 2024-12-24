@@ -1,3 +1,6 @@
+[![Build](https://github.com/92username/desafio-devsecops-lacrei-saude/actions/workflows/ci.yml/badge.svg)](https://github.com/92username/desafio-devsecops-lacrei-saude/actions/workflows/ci.yml)  [![Security](https://github.com/92username/desafio-devsecops-lacrei-saude/actions/workflows/owasp_zap.yml/badge.svg)](https://github.com/92username/desafio-devsecops-lacrei-saude/actions/workflows/owasp_zap.yml)  [![Deploy](https://github.com/92username/desafio-devsecops-lacrei-saude/actions/workflows/deploy.yml/badge.svg)](https://github.com/92username/desafio-devsecops-lacrei-saude/actions/workflows/deploy.yml)
+
+
 # README Inicial
 
 ## Desafio DevSecOps - Lacrei Saúde
