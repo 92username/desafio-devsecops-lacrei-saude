@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -27,7 +27,7 @@ jobs:
         run: npm test
 
   security:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: build
     steps:
       - name: Checkout code
@@ -42,7 +42,7 @@ jobs:
           target: 'http://localhost:3000'
 
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: security
     steps:
       - name: Checkout code
