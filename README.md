@@ -38,7 +38,7 @@ node app.js
 
 1. Build the image:
 ```bash
-docker build -t health-api
+docker build -t health-api .
 ```
 
 2. Run the container:
