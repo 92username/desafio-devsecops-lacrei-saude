@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node app.js",
-    "test": "mocha"
+    "test": "mocha tests/**/*.js --recursive"
   },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "mocha": "^9.0.0"
+    "mocha": "^9.0.0",
+    "supertest": "^7.0.0"
   }
 }

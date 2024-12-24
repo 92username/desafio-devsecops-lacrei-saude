@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('./health'); // substitua pelo caminho do app
+const app = require('../app');
 const assert = require('assert');
 
 describe('GET /health', () => {
