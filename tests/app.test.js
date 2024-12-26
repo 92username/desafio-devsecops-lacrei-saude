@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../path/to/your/app'); // Adjust the path to your app
+const app = require('../app.test.js');
 
 describe('GET /health', function() {
   let server;
