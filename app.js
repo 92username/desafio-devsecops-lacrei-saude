@@ -6,6 +6,10 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
-app.listen(port, () => {
-  console.log(`API rodando na porta ${port}`);
-});
+if (require.main === module) {
+  app.listen(port, () => {
+    console.log(`API rodando na porta ${port}`);
+  });
+} else {
+  module.exports = app;
+}
