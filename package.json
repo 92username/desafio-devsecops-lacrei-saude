@@ -6,7 +6,7 @@
     "test": "mocha tests/**/*.js --recursive"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.21.2"
   },
   "devDependencies": {
     "mocha": "^9.0.0",

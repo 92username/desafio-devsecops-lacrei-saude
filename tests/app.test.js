@@ -5,7 +5,7 @@ describe('GET /health', function() {
   let server;
 
   before(function(done) {
-    server = app.listen(3000, done); // Adicione a porta aqui
+    server = app.listen(3000, done); 
   });
 
   after(function(done) {
