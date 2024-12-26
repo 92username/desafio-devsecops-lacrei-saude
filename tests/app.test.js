@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../tests');
+const app = require('../tests/app.test.js');
 
 describe('GET /health', function() {
   let server;
