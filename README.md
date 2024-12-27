@@ -1,4 +1,6 @@
 [![Build](https://github.com/92username/desafio-devsecops-lacrei-saude/actions/workflows/ci.yml/badge.svg)](https://github.com/92username/desafio-devsecops-lacrei-saude/actions/workflows/ci.yml)  [![Security](https://github.com/92username/desafio-devsecops-lacrei-saude/actions/workflows/owasp_zap.yml/badge.svg)](https://github.com/92username/desafio-devsecops-lacrei-saude/actions/workflows/owasp_zap.yml)  [![Deploy](https://github.com/92username/desafio-devsecops-lacrei-saude/actions/workflows/deploy.yml/badge.svg)](https://github.com/92username/desafio-devsecops-lacrei-saude/actions/workflows/deploy.yml)
+
+# This repo wont't be updated anymore. Check this one instead: https://github.com/92username/desafio-lacrei-saude-devops
 # Health Check API
 
 A simple Node.js API that provides a health check endpoint.
